@@ -4,12 +4,11 @@ public class Almond extends Evergreen implements Shroom, AlmondSpecialSkill {
 
     private final int CHANCE_TO_SHROOM = 8;
     private final int CHANCE_TO_ROT = 13;
-    private final int STARTER_PRODUCE = 50;
 
     public Almond(String name, String type) {
         super.name = name;
         super.type = type;
-        super.produce = STARTER_PRODUCE;
+        super.produce = 50;
         super.week = 0;
     }
 
