@@ -1,6 +1,9 @@
+import Farm.Farm;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Farm farm = new Farm();
+
     }
 }
