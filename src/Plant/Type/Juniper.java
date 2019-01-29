@@ -1,4 +1,4 @@
 package Plant.Type;
 
-public class Juniper {
+public class Juniper extends Evergreen {
 }
