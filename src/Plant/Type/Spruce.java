@@ -7,6 +7,11 @@ public class Spruce extends Plant implements Shroom {
     private final int CHANCE_TO_SHROOM = 5;
     private final int CHANCE_TO_ROT = 4;
 
+    public Spruce(String name) {
+        super.name = name;
+        super.produce = 26;
+    }
+
     @Override
     public void growNewShroom() {
 
