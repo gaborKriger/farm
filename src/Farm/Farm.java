@@ -21,17 +21,28 @@ public class Farm {
     public void monthlyReport() {
         for (Plant plant : plants) {
             if (plant instanceof Almond) {
-
+                prepareAlmond((Almond) plant);
             } else if (plant instanceof Juniper) {
-
+                prepareJuniper((Juniper) plant);
             } else if (plant instanceof Spruce) {
-
+                prepareSpruce((Spruce) plant);
             }
         }
-        printMonthyReport();
     }
 
-    private void printMonthyReport() {
+    private void prepareAlmond(Almond almond) {
+
+    }
+
+    private void prepareJuniper(Juniper juniper) {
+
+    }
+
+    private void prepareSpruce(Spruce spruce) {
+
+    }
+
+    public void printMonthyReport() {
 
     }
 
