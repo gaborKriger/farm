@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c8a14faf-1a3b-4bfd-9fa3-4ebd72abb4a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util/MyRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/MyRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plant/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plant/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plant/Type/Almond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plant/Type/Almond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plant/Type/Evergreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plant/Type/Evergreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plant/Type/Spruce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plant/Type/Spruce.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +35,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="142" />
-          <entry key="txt" value="65" />
+          <entry key="java" value="382" />
+          <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="142" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="JAVA" value="382" />
+          <entry key="PLAIN_TEXT" value="95" />
         </counts>
       </usages-collector>
     </session>
@@ -81,11 +84,19 @@
         <splitter split-orientation="horizontal" split-proportion="0.55183583">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Plant/Plant.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="169">
-                      <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                    <state relative-caret-position="247">
+                      <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+                      <folding>
+                        <element signature="e#136#137#0" expanded="true" />
+                        <element signature="e#166#167#0" expanded="true" />
+                        <element signature="e#148#149#0" expanded="true" />
+                        <element signature="e#186#187#0" expanded="true" />
+                        <element signature="e#285#286#0" expanded="true" />
+                        <element signature="e#313#314#0" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -108,8 +119,8 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Plant/Type/Evergreen.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="78">
-                      <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                    <state relative-caret-position="156">
+                      <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
                     </state>
                   </provider>
                 </entry>
@@ -123,11 +134,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Plant/Type/Almond.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="247">
-                      <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+                    <state relative-caret-position="325">
+                      <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
                     </state>
                   </provider>
                 </entry>
@@ -144,8 +155,11 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Plant/Type/Spruce.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="247">
-                      <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+                    <state relative-caret-position="286">
+                      <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+                      <folding>
+                        <element signature="imports" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -166,8 +180,12 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Util/MyRandom.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="143">
-                      <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+                    <state relative-caret-position="195">
+                      <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                      <folding>
+                        <element signature="e#207#208#0" expanded="true" />
+                        <element signature="e#258#259#0" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -196,15 +214,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Plant/Type/Shroom.java" />
         <option value="$PROJECT_DIR$/src/Plant/Type/AlmondSpecialSkill.java" />
-        <option value="$PROJECT_DIR$/src/Plant/Type/Evergreen.java" />
         <option value="$PROJECT_DIR$/src/Farm/Farm.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Plant/Type/Almond.java" />
         <option value="$PROJECT_DIR$/src/Plant/Type/Juniper.java" />
         <option value="$PROJECT_DIR$/src/Plant/Type/StarterProduce.java" />
-        <option value="$PROJECT_DIR$/src/Plant/Type/Spruce.java" />
-        <option value="$PROJECT_DIR$/src/Plant/Plant.java" />
         <option value="$PROJECT_DIR$/src/Util/MyRandom.java" />
+        <option value="$PROJECT_DIR$/src/Plant/Type/Evergreen.java" />
+        <option value="$PROJECT_DIR$/src/Plant/Plant.java" />
+        <option value="$PROJECT_DIR$/src/Plant/Type/Spruce.java" />
+        <option value="$PROJECT_DIR$/src/Plant/Type/Almond.java" />
       </list>
     </option>
   </component>
@@ -274,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548843704683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548844537884" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -318,7 +336,7 @@
       <option name="presentableId" value="Default" />
       <updated>1548789139276</updated>
       <workItem from="1548789145455" duration="2928000" />
-      <workItem from="1548842914323" duration="766000" />
+      <workItem from="1548842914323" duration="1591000" />
     </task>
     <task id="LOCAL-00001" summary="create classes">
       <created>1548790135125</created>
@@ -348,11 +366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548843596424</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MyRandom evenWithChance();">
+      <created>1548843748915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548843748915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3694000" />
+    <option name="totallyTimeSpent" value="4519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -363,7 +388,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50139666" side_tool="true" weight="0.24966443" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49860334" weight="0.13333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49860334" visible="true" weight="0.13333334" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -401,7 +426,8 @@
     <MESSAGE value="add class variable 50%" />
     <MESSAGE value="hotfix almond constructor" />
     <MESSAGE value="hotfix abstract Plant growProduce() change changeProduce()" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfix abstract Plant growProduce() change changeProduce()" />
+    <MESSAGE value="MyRandom evenWithChance();" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyRandom evenWithChance();" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Util.java" />
@@ -432,6 +458,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Farm/Farm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/MyRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant/Type/Juniper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Plant/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Plant/Type/StarterProduce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -447,39 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Plant/Type/Evergreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plant/Type/Spruce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plant/Type/Juniper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plant/Type/Almond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Farm/Farm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -490,17 +528,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plant/Plant.java">
+    <entry file="file://$PROJECT_DIR$/src/Plant/Type/Spruce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="286">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/MyRandom.java">
+    <entry file="file://$PROJECT_DIR$/src/Plant/Type/Almond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="325">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>

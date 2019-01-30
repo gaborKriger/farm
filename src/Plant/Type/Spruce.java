@@ -1,6 +1,7 @@
 package Plant.Type;
 
 import Plant.Plant;
+import Util.MyRandom;
 
 public class Spruce extends Plant implements Shroom {
 
@@ -14,11 +15,15 @@ public class Spruce extends Plant implements Shroom {
 
     @Override
     public void growNewShroom() {
-
+        if (MyRandom.eventWithChance(CHANCE_TO_SHROOM)) {
+            setProduce(getProduce() + 15);
+        }
     }
 
     @Override
     public void rot() {
-
+        if (MyRandom.eventWithChance(CHANCE_TO_ROT)) {
+            setProduce(getProduce() - 20);
+        }
     }
 }

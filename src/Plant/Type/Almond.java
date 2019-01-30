@@ -1,5 +1,7 @@
 package Plant.Type;
 
+import Util.MyRandom;
+
 public class Almond extends Evergreen implements Shroom, AlmondSpecialSkill {
 
     private final int CHANCE_TO_SHROOM = 8;
@@ -13,16 +15,20 @@ public class Almond extends Evergreen implements Shroom, AlmondSpecialSkill {
 
     @Override
     public void growNewShroom() {
-
+        if (MyRandom.eventWithChance(CHANCE_TO_SHROOM)) {
+            setProduce(getProduce() + 10);
+        }
     }
 
     @Override
     public void rot() {
-
+        if (MyRandom.eventWithChance(CHANCE_TO_ROT)) {
+            setProduce(getProduce() - 18);
+        }
     }
 
     @Override
     public void produceDouble() {
-
+        setProduce(getProduce() * 2);
     }
 }
