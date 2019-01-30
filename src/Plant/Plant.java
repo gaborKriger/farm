@@ -13,7 +13,7 @@ public abstract class Plant {
         this.produce = produce;
     }
 
-    public void changeProduce() {
+    public void growProduce() {
         setProduce(getProduce() + 4);
     }
 
