@@ -9,7 +9,7 @@ public class Spruce extends Plant implements Shroom {
 
     public Spruce(String name) {
         super.name = name;
-        super.produce = 26;
+        super.produce = StarterProduce.SPRUCE.getValue();
     }
 
     @Override

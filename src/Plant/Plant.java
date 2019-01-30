@@ -6,7 +6,7 @@ public abstract class Plant {
     protected double produce;
 
 
-    public void growProduce() {
+    public void changeProduce() {
 
     }
 

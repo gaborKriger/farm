@@ -7,7 +7,7 @@ public class Almond extends Evergreen implements Shroom, AlmondSpecialSkill {
 
     public Almond(String name) {
         super.name = name;
-        super.produce = 50;
+        super.produce = StarterProduce.ALMOND.getValue();
         super.week = 0;
     }
 
