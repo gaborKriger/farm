@@ -16,7 +16,7 @@ public abstract class Evergreen extends Plant {
 
     public void fifthWeekProduce() {
         if (week % 5 == 0) {
-            setProduce(getProduce() + 5);
+            setProduce((int) (getProduce() + 5));
         }
     }
 }

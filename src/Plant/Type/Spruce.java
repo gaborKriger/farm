@@ -26,14 +26,14 @@ public class Spruce extends Evergreen implements Shroom {
     @Override
     public void growNewShroom() {
         if (MyRandom.eventWithChance(CHANCE_TO_SHROOM)) {
-            setProduce(getProduce() + 15);
+            setProduce((int) (getProduce() + 15));
         }
     }
 
     @Override
     public void rot() {
         if (MyRandom.eventWithChance(CHANCE_TO_ROT)) {
-            setProduce(getProduce() - 20);
+            setProduce((int) (getProduce() - 20));
             setRotted(true);
         }
     }

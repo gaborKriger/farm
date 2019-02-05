@@ -3,18 +3,21 @@ package Plant;
 public abstract class Plant {
 
     protected String name;
-    protected double produce;
+    protected int produce;
+
+    public String getName() {
+        return name;
+    }
 
     public double getProduce() {
         return produce;
     }
 
-    public void setProduce(double produce) {
+    public void setProduce(int produce) {
         this.produce = produce;
     }
 
     public void growProduce() {
-        setProduce(getProduce() + 4);
+        setProduce((int) (getProduce() + 4));
     }
-
 }

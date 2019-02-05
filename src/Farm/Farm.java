@@ -10,7 +10,12 @@ import java.util.List;
 
 public class Farm {
 
+    private int week;
     private List<Plant> plants = new LinkedList<>();
+
+    public int getWeek() {
+        return week;
+    }
 
     public void addPlant(Plant plant) {
         plants.add(plant);
@@ -26,6 +31,7 @@ public class Farm {
                 prepareSpruce((Spruce) plant);
             }
         }
+        week++;
     }
 
     private void prepareAlmond(Almond almond) {
@@ -35,7 +41,7 @@ public class Farm {
         }
         almond.growNewShroom();
         almond.rot();
-        if (almond.isRotted()) {
+        if (!almond.isRotted()) {
             almond.growProduce();
         }
     }
@@ -45,10 +51,10 @@ public class Farm {
             juniper.fifthWeekProduce();
         }
         juniper.growProduce();
-        juniper.increaseWeek();
         if (juniper.getProduce() >= 70) {
             juniper.setProduce(70);
         }
+        juniper.increaseWeek();
     }
 
     private void prepareSpruce(Spruce spruce) {
@@ -58,18 +64,22 @@ public class Farm {
         }
         spruce.growNewShroom();
         spruce.rot();
-        if (spruce.isRotted()) {
+        if (!spruce.isRotted()) {
             spruce.growProduce();
         }
         spruce.increaseWeek();
         if (spruce.getProduce() >= 70) {
             spruce.setProduce(70);
         }
+        spruce.increaseWeek();
     }
 
     public void printMonthlyReport() {
-
+        System.out.println(getWeek());
+        for (Plant plant : plants) {
+            System.out.print(plant.getName() + ": ");
+            System.out.println(plant.getProduce());
+        }
+        System.out.println();
     }
-
-
 }

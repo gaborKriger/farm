@@ -27,14 +27,14 @@ public class Almond extends Plant implements Shroom, AlmondSpecialSkill {
     @Override
     public void growNewShroom() {
         if (MyRandom.eventWithChance(CHANCE_TO_SHROOM)) {
-            setProduce(getProduce() + 10);
+            setProduce((int) (getProduce() + 10));
         }
     }
 
     @Override
     public void rot() {
         if (MyRandom.eventWithChance(CHANCE_TO_ROT)) {
-            setProduce(getProduce() - 18);
+            setProduce((int) (getProduce() - 18));
             setRotted(true);
         }
 
@@ -42,6 +42,6 @@ public class Almond extends Plant implements Shroom, AlmondSpecialSkill {
 
     @Override
     public void produceDouble() {
-        setProduce(getProduce() * 2);
+        setProduce((int) (getProduce() * 2));
     }
 }
