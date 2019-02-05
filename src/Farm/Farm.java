@@ -10,8 +10,6 @@ import java.util.List;
 
 public class Farm {
 
-    private String name;
-    private String location;
     private List<Plant> plants = new LinkedList<>();
 
     public void addPlant(Plant plant) {
@@ -31,18 +29,45 @@ public class Farm {
     }
 
     private void prepareAlmond(Almond almond) {
-
+        almond.setRotted(false);
+        if (almond.getProduce() < 40) {
+            almond.produceDouble();
+        }
+        almond.growNewShroom();
+        almond.rot();
+        if (almond.isRotted()) {
+            almond.growProduce();
+        }
     }
 
     private void prepareJuniper(Juniper juniper) {
-
+        if (juniper.getWeek() % 5 == 0) {
+            juniper.fifthWeekProduce();
+        }
+        juniper.growProduce();
+        juniper.increaseWeek();
+        if (juniper.getProduce() >= 70) {
+            juniper.setProduce(70);
+        }
     }
 
     private void prepareSpruce(Spruce spruce) {
-
+        spruce.setRotted(false);
+        if (spruce.getWeek() % 5 == 0) {
+            spruce.fifthWeekProduce();
+        }
+        spruce.growNewShroom();
+        spruce.rot();
+        if (spruce.isRotted()) {
+            spruce.growProduce();
+        }
+        spruce.increaseWeek();
+        if (spruce.getProduce() >= 70) {
+            spruce.setProduce(70);
+        }
     }
 
-    public void printMonthyReport() {
+    public void printMonthlyReport() {
 
     }
 

@@ -1,20 +1,26 @@
 package Plant.Type;
 
-import Plant.Plant;
 import Util.MyRandom;
 
-public class Spruce extends Plant implements Shroom {
+public class Spruce extends Evergreen implements Shroom {
 
     private final int CHANCE_TO_SHROOM = 5;
     private final int CHANCE_TO_ROT = 4;
     private boolean rotted;
-    private int growAgainCounter;
 
     public Spruce(String name) {
         super.name = name;
         super.produce = StarterProduce.SPRUCE.getValue();
+        super.week = 0;
         this.rotted = false;
-        this.growAgainCounter = 0;
+    }
+
+    public boolean isRotted() {
+        return rotted;
+    }
+
+    public void setRotted(boolean rotted) {
+        this.rotted = rotted;
     }
 
     @Override
@@ -28,6 +34,7 @@ public class Spruce extends Plant implements Shroom {
     public void rot() {
         if (MyRandom.eventWithChance(CHANCE_TO_ROT)) {
             setProduce(getProduce() - 20);
+            setRotted(true);
         }
     }
 }

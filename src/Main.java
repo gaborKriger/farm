@@ -16,7 +16,7 @@ public class Main {
 
         for (int i = 0; i < 52; i++) {
             farm.monthlyReport();
-            farm.printMonthyReport();
+            farm.printMonthlyReport();
         }
     }
 }
